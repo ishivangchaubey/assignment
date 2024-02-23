@@ -1,0 +1,113 @@
+
+.split {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    width: 20%;
+    background-color: #132332;
+  }
+  
+  .right {
+    right: 0;
+    width: 80%;
+    background-repeat: no-repeat;
+    background: -webkit-linear-gradient(left, rgb(205, 217, 214), rgb(169, 188, 184) 100%, rgb(204, 211, 211) 30%, rgb(199, 235, 230));
+  }
+  
+  .assign{
+    color: white;
+    padding-left: 20px;
+    top: 5%;
+    font-weight: 200;
+    font-size:xx-large;
+  }
+
+  .Dashboard{
+    color: rgba(0, 0, 0, 0.839);
+    top: 5%;
+    padding-left: 10%;
+    font-size: xx-large;
+    padding-top: 1%;
+  }
+
+span{
+  color: #F5F5F5;
+  margin-left: 40px;
+  font-size: large;
+  
+  
+}
+.title{
+  color: gray;
+  font-weight: 500;
+  font-size: x-large;
+  padding-top: 30px;
+  
+}
+.sub{
+  padding: 20px;
+  margin-top: 10%;
+
+}
+#first{
+  padding-top: 30px;
+}
+#second{
+  padding-top: 50px;
+}
+#third{
+  padding-top: 50px;
+}
+
+
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: right;
+  font-size: xx-large;
+  
+}
+
+table{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-bottom: 30%;
+  text-align: center;
+  margin-left: 10%;
+  background-color: rgb(221, 236, 231); 
+  cursor: pointer;
+}
+
+.selected {
+  background-color: brown;
+  color: #FFF;
+}
+
+
+button{
+  background-color: rgb(30, 47, 125);
+  border-radius: 5px;
+  color: white;
+  margin-left: 82%;
+  margin-top: 1%;
+height: 30px;
+width: 100px;
+
+}
+
+#secondbtn{
+  margin:20px 120px;
+  text-align: center;
+}
+
+#secondtable{
+  width: 60%;
+}
